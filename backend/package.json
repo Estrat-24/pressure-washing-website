@@ -1,0 +1,20 @@
+{
+  "name": "pressure-washing-website",
+  "version": "1.0.0",
+  "description": "Website for A&M Pressure Washing, LLC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "nodemailer": "^6.9.15"
+  }
+}
