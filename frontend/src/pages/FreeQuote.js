@@ -23,7 +23,7 @@ const FreeQuote = () => {
 
     if (validateForm()) {
       try {
-        const response = await fetch('http://localhost:3000/api/send-quote', {
+        const response = await fetch('https://my-pressure-washing-backend-ec6d8b7f7bee.herokuapp.com/api/send-quote', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -53,7 +53,7 @@ const FreeQuote = () => {
   };
 
   return (
-    <section id="free-quote" className="py-8 bg-gray-100">
+    <section id="free-quote" className="py-8 bg-gray-200">
       <div className="container mx-auto text-center px-4">
         <h2 className="text-3xl font-bold mb-6 text-gray-800">Get Your Free Quote</h2>
         <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg max-w-md mx-auto">

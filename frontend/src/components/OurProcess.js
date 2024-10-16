@@ -10,7 +10,7 @@ const OurProcess = () => {
             <h3 className="text-xl sm:text-2xl font-semibold mb-4">Step 1: FREE Quote</h3>
             <p>Our FREE Quoting Process ensures that everyone has the right to know the price of pressure washing services before you allow our professional team to brighten up your property!</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg">
+          <div className="bg-white p-6 ronded-lg shadow-lg">
             <h3 className="text-xl sm:text-2xl font-semibold mb-4">Step 2: Scheduling</h3>
             <p>Our top priority is giving you the best cleaning and service possible! Our first-class team will help you schedule your appointment efficiently and for a time that works best for you!</p>
           </div>
