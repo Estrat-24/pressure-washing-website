@@ -23,7 +23,7 @@ const FreeQuote = () => {
 
     if (validateForm()) {
       try {
-        const response = await fetch('https://my-pressure-washing-backend-ec6d8b7f7bee.herokuapp.com/api/send-quote', {
+        const response = await fetch('https://my-pressure-washing-backend-ec6d8b7f7bee.herokuapp.com/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
